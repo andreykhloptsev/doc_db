@@ -10,7 +10,7 @@ public class MyConnection {
 
     public static Connection getConnection(){
         try {
-            conn= DriverManager.getConnection("jdbc:sqlite:db_test");
+            conn= DriverManager.getConnection("jdbc:sqlite:doc_db");
 
         } catch (SQLException e)
         {
